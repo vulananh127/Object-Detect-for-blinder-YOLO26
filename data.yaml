@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 15
+names: ['bed', 'chair', 'computer-device', 'door', 'fan', 'fridge', 'kitchen-object', 'person', 'phone', 'sharp-object', 'sink', 'stairs', 'table', 'toilet', 'washing-machine']
+
+roboflow:
+  workspace: v-xq6jj
+  project: object_detection_for_blinder
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/v-xq6jj/object_detection_for_blinder/dataset/6
